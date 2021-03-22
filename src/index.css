@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+html {
+  font-size: 62.5%;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.frontPageCatchAll {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.5rem;
+}
+button {
+  margin: 1rem;
+  border-radius: 1rem;
+  padding: 1rem;
+  border: 0.5rem solid white;
+  box-shadow: 1rem 1rem 1.5rem 0rem black;
+  background-color: black;
+  color: white;
+}
+label,
+input {
+  margin: 1rem;
+}
+input {
+  border-radius: 1rem;
+  padding: 1rem;
+  box-shadow: 1rem 1rem 1rem 1rem black;
+}
+.personSignedIn {
+  box-shadow: 1rem 1rem 1rem 0rem black, -1rem -1rem 1.5rem 0.25rem black;
+  padding: 1rem;
+  margin: 2rem;
+  text-align: center;
+  width: 60%;
+}
+a,
+link {
+  text-decoration: none;
+  color: black;
+  font-size: 1.6rem;
+}
+/* MEDIA QUERIES */
+
+.frontPageCatchAll {
+  text-align: center;
+}
